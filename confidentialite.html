@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité · Mon Vote 2027</title>
+<style>
+  :root { color-scheme: light; --paper:#F4F3EE; --ink:#111111; --body:#3D3F44; --muted:#5E6066; --line:#D9D6CC; --card:#FFFFFF; --hl:#FFE14D; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         -webkit-text-size-adjust:100%; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px 80px; }
+  h1 { font-size:30px; line-height:1.15; letter-spacing:-.02em; margin:0 0 6px; }
+  h2 { font-size:20px; margin-top:38px; letter-spacing:-.01em; }
+  p, li { color:var(--body); }
+  li { margin-bottom:6px; }
+  strong { color:var(--ink); }
+  .updated { font-size:13px; color:var(--muted); margin-top:0; }
+  a { color:var(--ink); text-underline-offset:3px; }
+  .mail { display:inline-block; background:var(--card); border:1px solid var(--line);
+          border-radius:12px; padding:12px 16px; margin:8px 0 4px; font-weight:700;
+          text-decoration:none; word-break:break-word; }
+  .lead { background:linear-gradient(to top, var(--hl) 42%, transparent 42%); display:inline; color:var(--ink); font-weight:600; }
+  footer { margin-top:56px; padding-top:18px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
+  footer a { white-space:nowrap; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politique de confidentialité</h1>
+  <p class="updated">Mon Vote 2027 · dernière mise à jour : 17 novembre 2026</p>
+
+  <p><span class="lead">Pas de compte, pas de publicité, pas de traceur.</span> Cette page dit ce qui sort de ton téléphone, vers qui, et combien de temps c'est gardé. Elle reprend ce que l'app affiche dans « Où vont tes réponses ». Quand une garantie a une limite, la limite est écrite avec elle.</p>
+
+  <h2>1. Qui est responsable</h2>
+  <p>Le responsable du traitement est <strong>Pierrick Coulon</strong>, entrepreneur individuel établi en France, éditeur de Mon Vote 2027. Contact : <a href="mailto:coulonpierrick@gmail.com">coulonpierrick@gmail.com</a>. Le traitement relève du Règlement général sur la protection des données (RGPD).</p>
+  <p>L'app est gratuite. Elle n'est liée à aucun parti, aucun candidat ni aucune institution, et ne reçoit aucun financement politique.</p>
+
+  <h2>2. Ce que l'app traite, et pourquoi</h2>
+  <p>L'app te pose des questions sur des thèmes de l'élection présidentielle de 2027. Tu réponds avec tes mots. Tes réponses disent tes <strong>opinions politiques</strong> : ce sont des données sensibles au sens de l'article 9 du RGPD. L'app ne les traite qu'avec ton <strong>accord explicite</strong>, demandé à l'accueil avant la première question, et dans un seul but : calculer de quels candidats tes réponses te rapprochent.</p>
+  <p>L'app ne demande ni ton nom, ni ton adresse électronique, ni ta position. Un conseil : n'écris rien dans tes réponses qui permette de te reconnaître.</p>
+
+  <h2>3. Sur ton téléphone</h2>
+  <p>Tes réponses, ton résultat et son explication restent en mémoire le temps de ta session. <strong>Rien n'est écrit sur le téléphone</strong> : quand tu quittes l'app ou que tu touches « Tout effacer », tout disparaît. Seule la liste des positions des candidats, qui est publique, peut être gardée en cache. Le score est calculé sur ton téléphone.</p>
+
+  <h2>4. Le mode en ligne</h2>
+  <ul>
+    <li><strong>Notre serveur, à Paris.</strong> Chaque réponse part, chiffrée, vers un serveur hébergé en France par Scaleway (région Paris). Il n'a pas de base de données et n'écrit tes réponses nulle part : il les transmet à l'IA, contrôle ce qu'elle renvoie, puis les oublie. Comme tout serveur, il voit ton adresse IP le temps de la connexion, et Scaleway aussi.</li>
+    <li><strong>L'IA : Claude, de la société américaine Anthropic.</strong> Le serveur lui transmet ta réponse, sans ton nom ni aucun identifiant. C'est un transfert hors de l'Union européenne : Anthropic stocke ces données aux États-Unis et peut les traiter dans d'autres pays. Selon ses engagements publics, Anthropic ne s'en sert pas, par défaut, pour entraîner ses modèles, et les supprime dans les 30 jours. Exceptions : un texte signalé par ses contrôles automatiques contre les abus peut être gardé jusqu'à 2 ans, et la note donnée par ces contrôles jusqu'à 7 ans ; Anthropic peut aussi garder des données plus longtemps si la loi l'y oblige.</li>
+    <li><strong>Ce que l'IA voit.</strong> Pendant les questions : la question, ses quatre pistes et ta réponse, jamais les candidats ni leurs positions. À la fin : ton résultat (les candidats, leurs positions et tes phrases), pour rédiger le texte d'explication.</li>
+  </ul>
+
+  <h2>5. Le mode hors ligne</h2>
+  <p>Si tu choisis le mode hors ligne, l'IA tourne sur ton téléphone et rien de ce que tu écris n'en sort. Le fichier du modèle est téléchargé une fois depuis Hugging Face, qui voit ton adresse IP pendant ce téléchargement, comme tout site web.</p>
+
+  <h2>6. La lutte contre les abus</h2>
+  <ul>
+    <li>Le serveur compte les demandes envoyées par chaque téléphone. Il ne garde pour cela qu'un code tiré au hasard à chaque lancement de l'app, mélangé à une valeur qui change chaque jour, et le nombre de demandes. Ces compteurs s'effacent chaque jour.</li>
+    <li>Sur iPhone, l'app peut prouver au serveur qu'elle est bien l'app officielle, grâce à un service d'Apple. Le serveur limite le nombre de ces preuves par adresse IP et par jour ; il ne garde l'adresse que sous une forme brouillée, effacée chaque jour.</li>
+  </ul>
+
+  <h2>7. Le micro</h2>
+  <p>Si tu touches le micro, ta voix est transformée en texte par le service de dictée de ton téléphone. Sur iPhone, le son ne quitte pas l'appareil. Sur Android, cela dépend du service de reconnaissance vocale installé sur ton téléphone, qui peut envoyer le son à son éditeur. L'app n'enregistre et ne transmet aucun son elle-même.</p>
+
+  <h2>8. Ce que l'app ne fait pas</h2>
+  <ul>
+    <li>Aucune publicité, aucun traceur, aucun outil de mesure d'audience.</li>
+    <li>Aucune vente ni aucun partage de données à des fins commerciales ou politiques.</li>
+    <li>Aucun profil : rien ne relie une session à la suivante.</li>
+  </ul>
+
+  <h2>9. Tes droits</h2>
+  <p>Tu peux retirer ton accord à tout moment : quitte l'app ou touche « Tout effacer ». Tu disposes des droits d'accès, de rectification, d'effacement, de limitation et d'opposition prévus par le RGPD. Une limite, dite franchement : l'éditeur ne garde rien et ne peut relier aucun texte à une personne ; il ne peut donc ni retrouver ni effacer chez Anthropic ce qu'une personne précise a écrit pendant la durée de conservation décrite plus haut.</p>
+  <p>Pour toute question : <a href="mailto:coulonpierrick@gmail.com">coulonpierrick@gmail.com</a>. Tu peux aussi saisir la CNIL (<a href="https://www.cnil.fr/fr/plaintes">cnil.fr/fr/plaintes</a>).</p>
+
+  <h2>10. Les positions des candidats</h2>
+  <p>Les positions des candidats sont relevées et classées par des IA à partir de documents publics, chacune avec sa citation et sa source, puis vérifiées par un programme. Les candidats n'ont pas été consultés. Pour signaler une erreur : la même adresse.</p>
+
+  <h2>11. Changements</h2>
+  <p>Si cette page change, la date en haut change avec elle. Un changement de fond est aussi noté dans l'app, sous « Ce qui a changé ».</p>
+
+  <footer>
+    Mon Vote 2027 · <a href="confidentialite.html">Confidentialité</a> · <a href="support.html">Assistance</a>
+  </footer>
+</main>
+</body>
+</html>
